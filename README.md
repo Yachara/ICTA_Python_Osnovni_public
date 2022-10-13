@@ -8,7 +8,7 @@ Izpit: Zadnji teden
 
 Predavatelja: 
 * **Gregor Balkovec** (<gregor.balkovec@fe1.uni-lj.si>)
-* **Anže Glušič** (<anze.glusic@ltfe.org>)
+* **Anže Glušič** (<anze.glusic@fe1.uni-lj.si>)
 
 1 termin poteka 4 ure, 16:15 - 20:00. Vmes bomo imel nekaj pavzic, po potrebi.
 
@@ -18,16 +18,16 @@ Lahko namesto 31.okt rečemo da je 3 predavanje 26.okt in pol 4.predavanje 7.11 
 
 | Zaporedje | Datum      | Dan   | Tip |
 | :-------: | :--------: | :---: | :---: |
-| 1.        | 17.10.2022 | Pon   | Predavanje 1 |
-| 2.        | 24.10.2022 | Pon   | Predavanje 2 |
-| /.        | ~~31.10.2022~~ | ~~Pon~~   | ~~Predavanje 3~~ |
-| 3.        | 07.11.2022 | Pon   | Predavanje 3 |
-| 4.        | 14.11.2022 | Pon   | Predavanje 4 |
-| 5.        | 21.11.2022 | Pon   | Predavanje 5 |
-| 6.        | 28.11.2022 | Pon   | Predavanje 6 |
-| 7.        | 05.12.2022 | Pon   | Predavanje 7 |
-| 8.        | 12.12.2022 | Pon   | Predavanje 8 |
-| 9.        | 19.10.2022 | Pon   | Predavanje 9 |
+| 1.        | 17.10.2022 | Pon   | Termin 1 |
+| 2.        | 24.10.2022 | Pon   | Termin 2 |
+| /.        | ~~31.10.2022~~ | ~~Pon~~   | ~~Termin 3~~ |
+| 3.        | 07.11.2022 | Pon   | Termin 3 |
+| 4.        | 14.11.2022 | Pon   | Termin 4 |
+| 5.        | 21.11.2022 | Pon   | Termin 5 |
+| 6.        | 28.11.2022 | Pon   | Termin 6 |
+| 7.        | 05.12.2022 | Pon   | Termin 7 |
+| 8.        | 12.12.2022 | Pon   | Termin 8 |
+| 9.        | 19.10.2022 | Pon   | Termin 9 |
 | 10.       | 26.10.2022 | Pon   | Izpit |
 
 
@@ -44,7 +44,7 @@ Naloge oddate preko email-a, kjer priložite datoteko z rešeno nalogo.
 Zadeva email-a: \[DN-Python\] \<Termin\>\_Ime\_Priimek
 > Primer: \[DN-Python\] Termin\_01\_Luka_Novak
 
-Email pošljete na <gregor.balkovec@fe1.uni-lj.si> in <anze.glusic@ltfe.org>.
+Email pošljete na <gregor.balkovec@fe1.uni-lj.si> in <anze.glusic@fe1.uni-lj.si>.
 
 ## Izpit
 
