@@ -14,8 +14,6 @@ Predavatelja:
 
 ## Termini
 
-Lahko namesto 31.okt rečemo da je 3 predavanje 26.okt in pol 4.predavanje 7.11 in pol izpit 19.12?
-
 | Zaporedje | Datum      | Dan   | Tip |
 | :-------: | :--------: | :---: | :---: |
 | 1.        | 17.10.2022 | Pon   | Termin 1 |
