@@ -18,15 +18,14 @@ Predavatelja:
 | :-------: | :--------: | :---: | :---: |
 | 1.        | 17.10.2022 | Pon   | Termin 1 |
 | 2.        | 24.10.2022 | Pon   | Termin 2 |
-| /.        | ~~31.10.2022~~ | ~~Pon~~   | ~~Termin 3~~ |
-| 3.        | 07.11.2022 | Pon   | Termin 3 |
-| 4.        | 14.11.2022 | Pon   | Termin 4 |
-| 5.        | 21.11.2022 | Pon   | Termin 5 |
-| 6.        | 28.11.2022 | Pon   | Termin 6 |
-| 7.        | 05.12.2022 | Pon   | Termin 7 |
-| 8.        | 12.12.2022 | Pon   | Termin 8 |
-| 9.        | 19.10.2022 | Pon   | Termin 9 |
-| 10.       | 26.10.2022 | Pon   | Izpit |
+| 3.        | 03.11.2023 | Čet   | Termin 3 |
+| 4.        | 07.11.2022 | Pon   | Termin 4 |
+| 5.        | 14.11.2022 | Pon   | Termin 5 |
+| 6.        | 21.11.2022 | Pon   | Termin 6 |
+| 7.        | 28.11.2022 | Pon   | Termin 7 |
+| 8.        | 05.12.2022 | Pon   | Termin 8 |
+| 9.        | 12.12.2022 | Pon   | Termin 9 |
+| 10.       | 19.10.2022 | Pon   | Izpit    |
 
 
 ## Domače naloge
