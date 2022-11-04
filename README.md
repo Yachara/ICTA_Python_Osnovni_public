@@ -64,3 +64,41 @@ Notri boste našli naše zapiske in razlage snovi, navodila za vaje in rešitve,
 Dodatna gradiva lahko najdete na NetAcad.
 
 Vsi boste na emaile dobili povabilo k tečju. Predno lahko dostopate do gradiv morate izpolniti njihov "terms and services" in formo.
+
+
+# Uporaba linterja in code formaterja
+`flake` je Python linter. To pomeni, da nam omogoča hiter pregled kode in izpostavi kje so morebitne napake (syntax errors, pomoč pri styling-u kode po priporočilih PEP8, itd.)
+Za inštalacijo flake v terminal vpišemo ukaz `pip install flake8`.
+* [Flake dokumentacija](https://flake8.pycqa.org/en/latest/)
+
+`black` je Python code formater. Black nam samodejno odstrani prazne vrstice na koncu kode, samodejno naredi razmake med matematičnimi operacijami (po priporočilih PEP8), samodejno naredi razmake med funkcijami, itd. Načeloma nam formatira kodo po PEP8 priporočilih, kar pomeni, da vsi pišemo v istem stilu. To pa naredi kodo bolj berljivo za druge programerje.
+Za inštalacijo black v terminal vpišemo ukaz `pip install black`.
+* [Black dokumentacija](https://pypi.org/project/black/)
+
+**Za uporabo v VisualStudio Code**:
+
+Da nam VS Code avtomatično uporabi naši novo-inštalirani knjižnjici moramo dodati te nastavitve v naš VS Code.
+
+Znotraj mape kjer se nahaja naš projekt (kjer kliknemo *open with Code*) ustvarimo mapo `.vscode` in znotraj te mape ustvarimo datoteko `settings.json`.
+```
+new_folder/
+├─ .vscode/
+│  ├─ settings.json
+├─ Termin01/
+├─ Termin02/
+├─ main.py
+```
+
+Znotraj `settings.json` definiramo naše nastavitve:
+```
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=130",
+    ],
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true
+}
+```
