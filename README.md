@@ -25,7 +25,7 @@ Predavatelja:
 | 7.        | 28.11.2022 | Pon   | Termin 7 |
 | 8.        | 05.12.2022 | Pon   | Termin 8 |
 | 9.        | 12.12.2022 | Pon   | Termin 9 |
-| 10.       | 19.10.2022 | Pon   | Izpit    |
+| 10.       | 19.12.2022 | Pon   | Izpit    |
 
 
 ## Domače naloge
