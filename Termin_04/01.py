@@ -8,14 +8,13 @@
 # 	print("a >= 7")
 a = 7
 if a == 7:
-	print("a je enak 7")
+    print("a je enak 7")
 elif a == 5:
-	print("a je enak 5")
-elif a== 6:
-	print("a je enak 6")
+    print("a je enak 5")
+elif a == 6:
+    print("a je enak 6")
 else:
-	print("za a nismo našli števila")
-
+    print("za a nismo našli števila")
 
 
 # WHILE zanka
@@ -37,7 +36,6 @@ else:
 # for index,key in enumerate(a):
 # 	print(index, key)
 # print(f"for zanka se je izvedkla {index+1}-krat")
-
 
 
 # ENUMERATE
