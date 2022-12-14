@@ -1,4 +1,4 @@
-'''
+"""
 Naloga: 
 Napiši generator moj_generator, ki igra igro BUM-BAM. Generator naj sprejme 1 argument, ki je številka s katero naj začne in igra do 21 (vključno 21). 
 Nato naj vrača eno številko naenkrat.
@@ -53,4 +53,22 @@ BUM
 19
 20
 BUM BAM
-'''
+"""
+
+
+def moj_generator(num):
+
+    while num < 22:
+        value = ""
+        if "3" in str(num) or num % 3 == 0:
+            value += "BUM "
+        if "7" in str(num) or num % 7 == 0:
+            value += "BAM"
+        if not value:
+            value = num
+        yield value
+        num += 1
+
+
+for i in moj_generator(12):
+    print(i)

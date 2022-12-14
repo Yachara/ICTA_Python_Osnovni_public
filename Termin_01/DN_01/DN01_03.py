@@ -1,4 +1,4 @@
-'''
+"""
 S pomočjo podanih spremenljivk izpisite (print()) sledeča stavka.
 
 Primeri:
@@ -12,4 +12,10 @@ d = "maja"
 Output:
 Ivan Cankar se je rodil 10. maja
 10. maja se je rodil Ivan Cankar
-'''
+"""
+a = "Ivan"
+b = "Cankar"
+c = "10."
+d = "maja"
+print(a, b, "se je rodil", c, d)
+print(c, d, "se je rodil", a, b)
