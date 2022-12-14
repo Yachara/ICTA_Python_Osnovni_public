@@ -1,4 +1,4 @@
-'''
+"""
 Naloga: 
 Podan imate dataset učencev in njihovih ocen.
 S pomočjo list comprehensions ustvarite nov list v katerem so samo imena učencev, ki so opravili izpit (ocena more biti večja ali enaka 55).
@@ -10,4 +10,17 @@ students = [ ["Ana", 55], ["Anže", 96], ["Andrej", 67], ["Bojan", 88], ["Črt",
 
 Output:
 ['Ana', 'Anže', 'Andrej', 'Bojan', 'Črt', 'Erika']
-'''
+"""
+students = [
+    ["Ana", 55],
+    ["Anže", 96],
+    ["Andrej", 67],
+    ["Bojan", 88],
+    ["Črt", 100],
+    ["Dajana", 49],
+    ["Erika", 79],
+    ["Francis", 11],
+]
+
+opravili = [key for key, value in students if value >= 55]
+print(opravili)

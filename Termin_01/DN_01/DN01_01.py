@@ -24,3 +24,18 @@ Output:
 """
 
 # rešitevs
+n = input("Vnesite celo število: ")
+
+print(type(n))
+print(n)
+print()
+
+
+n = float(n)
+print(type(n))
+print(n)
+print()
+
+m = int(n)
+print(m)
+print(type(m))

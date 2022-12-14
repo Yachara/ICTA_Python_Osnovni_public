@@ -1,4 +1,4 @@
-'''
+"""
 Napišite program, ki najde vse številke med 2000 in 3200, ki SO deljive s 7 IN NISO deljive s 5.
 Izpišite te številke.
 
@@ -13,6 +13,9 @@ Primeri:
 2919,2926,2933,2947,2954,2961,2968,2982,2989,2996,3003,3017,3024,3031,3038,
 3052,3059,3066,3073,3087,3094,3101,3108,3122,3129,3136,3143,3157,3164,3171,
 3178,3192,3199
-'''
+"""
 
 # Rešitev
+for n in range(2000, 3201):
+    if n % 7 == 0 and not n % 5 == 0:
+        print(n)

@@ -1,4 +1,4 @@
-'''
+"""
 Obrnite vrstni red lista.
 
 Primeri:
@@ -15,4 +15,7 @@ Input:
 
 Output:
 ["o", "l", "e", "e", "H"]
-'''
+"""
+list_ = [1, 2, 3, 4, 5]
+list_ = ["H", "e", "e", "l", "o"]
+print(list_[::-1])
